@@ -34,7 +34,7 @@ def main():
         sys.exit(1)
 
     now = datetime.now(BEIJING_TZ)
-    title = f"每日通知 - {now.strftime('%m月%d日')}"
+    title = f"每日通知 - {now.strftime('%m月%d日')} - 开抢开枪"
 
     # ===== 在这里修改你的推送内容 =====
     content = f"""## 定时任务报告
