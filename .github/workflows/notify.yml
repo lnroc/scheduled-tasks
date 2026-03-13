@@ -2,7 +2,7 @@ name: PushPlus Notify
 
 on:
   schedule:
-    - cron: '50 1 * * *'  # UTC 01:50
+    - cron: '50 23 * * *'        
   workflow_dispatch:
 
 jobs:
